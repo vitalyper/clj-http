@@ -44,7 +44,7 @@
     (is (= "localhost" (. proxy-host getHostName)))
     (is (= 8888 (. proxy-host getPort)))))
 
-; From this poing jetty listening on localhost:8080 is required
+; From this point jetty listening on localhost:8080 is required
 (def base-req
   {:scheme "http"
    :server-name "localhost"
